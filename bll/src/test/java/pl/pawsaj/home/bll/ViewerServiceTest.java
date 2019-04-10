@@ -5,6 +5,9 @@ import org.junit.Before;
 import org.junit.Test;
 import pl.pawsaj.home.bll.services.ViewerService;
 
+/**
+ * Created by Paweł Sajnóg on 10 mar 2019.
+ */
 public class ViewerServiceTest {
     private ViewerService viewerService = new ViewerService();
 

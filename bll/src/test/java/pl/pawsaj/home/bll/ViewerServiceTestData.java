@@ -1,5 +1,8 @@
 package pl.pawsaj.home.bll;
 
+/**
+ * Created by Paweł Sajnóg on 10 mar 2019.
+ */
 public enum ViewerServiceTestData {
     USER_1("user1", 4),
     USER_2("user2", 7),
