@@ -25,19 +25,17 @@
 
     <properties>
         <java.version>11</java.version>
+        <dependency.junit.version>4.12</dependency.junit.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${dependency.junit.version}</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
