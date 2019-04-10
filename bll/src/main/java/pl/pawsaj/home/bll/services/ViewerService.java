@@ -17,7 +17,7 @@ public class ViewerService {
     public String view(String viewerId) {
         viewData.addView(viewerId);
 
-        return String.format("Your views='%s\' and total views='%s'",
+        return String.format("Your views=\'%s\' and total views=\'%s\'",
                 viewData.getViewerViews(viewerId), viewData.getAllViews());
     }
 }

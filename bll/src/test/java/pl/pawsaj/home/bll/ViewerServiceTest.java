@@ -36,7 +36,7 @@ public class ViewerServiceTest {
 
     private int assertUserViews(int sumOfViews, ViewerServiceTestData user1) {
         Assert.assertEquals(
-                String.format("Your views='%s' and total views='%s'", user1.getViews() + 1, ++sumOfViews),
+                String.format("Your views=\'%s\' and total views=\'%s\'", user1.getViews() + 1, ++sumOfViews),
                 viewerService.view(user1.getSessionId())
         );
         return sumOfViews;
