@@ -17,6 +17,6 @@ public class SpringConfigBll {
 
     @PostConstruct
     protected void init() {
-        logger.info("INITIALIZE ServiceConfig");
+        logger.info("INITIALIZE SpringConfigBll");
     }
 }
