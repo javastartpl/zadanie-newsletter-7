@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.thymeleaf.org ">
+<head>
+    <title>Counter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div class="container">
+
+    Global counter: <span th:text="${globalcounter.globalVisitCounter}"></span>
+    Session counter: <span th:text="${sessioncounter.sessionVisitCounter}"></span>
+
+</div>
+</body>
+</html>
